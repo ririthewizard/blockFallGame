@@ -11,7 +11,7 @@ int main()
     Grid grid = Grid();
     grid.Print();
 
-    LBlock block = LBlock();
+    IBlock block = IBlock();
 
     while(WindowShouldClose() == false){
         BeginDrawing();
