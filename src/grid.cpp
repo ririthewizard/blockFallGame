@@ -1,6 +1,5 @@
 #include "grid.h"
 #include <iostream>
-#include <raylib.h>
 #include "colors.h"
 
 Grid::Grid()
