@@ -31,7 +31,7 @@ int main()
         {
             game.MoveBlockDown();
         }
-
+        
         BeginDrawing();
         ClearBackground(darkBlue);
         game.Draw();
