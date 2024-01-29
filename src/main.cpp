@@ -7,7 +7,7 @@ int main()
     SetTargetFPS(90);
     Color darkBlue = {44, 44, 127, 255};
 
-    Grid grid = Grid();
+    // Grid grid = Grid();
     Game game = Game();
 
     while (WindowShouldClose() == false)
