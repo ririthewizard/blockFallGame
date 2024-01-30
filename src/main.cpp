@@ -20,6 +20,8 @@ int main()
     SetTargetFPS(90);
     Color darkBlue = {44, 44, 127, 255};
 
+    Font font = LoadFontEx("Font/monogram.ttf", 64, 0, 0);
+
     // Grid grid = Grid();
     Game game = Game();
 
@@ -34,6 +36,7 @@ int main()
 
         BeginDrawing();
         ClearBackground(darkBlue);
+        DrawTextEx(font, "Score", {365, 15}, 38, 2, WHITE);
         game.Draw();
         EndDrawing();
     }
