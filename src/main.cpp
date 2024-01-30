@@ -16,7 +16,7 @@ bool EventTriggered(double interval)
 
 int main()
 {
-    InitWindow(300, 600, "raylib BlockFall");
+    InitWindow(500, 620, "raylib BlockFall");
     SetTargetFPS(90);
     Color darkBlue = {44, 44, 127, 255};
 
